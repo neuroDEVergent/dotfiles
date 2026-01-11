@@ -1,0 +1,18 @@
+[font]
+size = 14.0
+
+[font.normal]
+family = "Liberation Mono"
+style = "Regular"
+
+[font.bold]
+family = "Liberation Mono"
+style = "Bold"
+
+[font.italic]
+family = "Liberation Mono"
+style = "Italic"
+
+[colors.primary]
+foreground = "#ff9c00"
+background = "#000000"
