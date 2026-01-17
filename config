@@ -24,7 +24,7 @@ set $Asus HDMI-A-1
 ### Output configuration
 #
 # Wallpaper
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg /home/p/Pictures/Wallpapers/crow.png fill
 # Monitor places
 output $Philips resolution 1920x1080@75.025Hz  position 0,0
 output $Asus resolution 1920x1080@75.025Hz position 1920,0
@@ -226,7 +226,9 @@ client.focused 		#ff9c00 #ff9c00 #000000 #ff9c00 #ff9c00
 client.unfocused 	#000000 #000000 #ff9c00 #000000 #000000
 client.focused_inactive #000000 #000000 #ff9c00 #000000 #000000
 
+### Yellow tint filter
 exec_always gammastep -O 3200
-
+### Bash script for random wallpapers
+exec "cd /home/p/.scripts/ && ./random-wallpaper.sh"
 
 include /etc/sway/config.d/*
