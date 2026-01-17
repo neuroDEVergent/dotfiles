@@ -16,3 +16,6 @@ style = "Italic"
 [colors.primary]
 foreground = "#ff9c00"
 background = "#000000"
+
+[window]
+opacity = 0.5
